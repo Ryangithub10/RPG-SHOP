@@ -29,9 +29,9 @@ int main(){
 
 		cout << "3. minuman energi\tHP: 30\tSP: 40\tPrice: 5000\tSPECIAL: Meningkatkan kecepatan hanya sekali pertarungan" << endl << endl;
 
-		cout << "4. helth potion\t\tHP: 30\tPrice: 1000" << endl << endl;
+		cout << "4. health capsul\tHP: 30\tPrice: 1000" << endl << endl;
 
-		cout << "5. either\t\tSP: 20\tPrice: 2000" << endl << endl;
+		cout << "5. stamina capsul\tSP: 20\tPrice: 2000" << endl << endl;
 
 		cout << "6. revive chip\t\tHP: TO THE MAX\tPrice: 60000" << endl << endl;
 
@@ -60,13 +60,13 @@ int main(){
 			cout << "berapa?: ";
 			cin >> count;
 			int total_harga = count * 1000;
-			cout << "\n*kamu membeli helth potion dengan jumlah " << count << " dan harga " << "DRP." << total_harga << endl << endl;
+			cout << "\n*kamu membeli health capsul dengan jumlah " << count << " dan harga " << "DRP." << total_harga << endl << endl;
 		}
 		else if(pesenM == '5'){
 			cout << "berapa?: ";
 			cin >> count;
 			int total_harga = count * 2000;
-			cout << "\n*kamu membeli either dengan jumlah " << count << " dan harga " << "DRP." << total_harga << endl << endl;
+			cout << "\n*kamu membeli stamina capsul dengan jumlah " << count << " dan harga " << "DRP." << total_harga << endl << endl;
 
 		}
 		else if(pesenM == '6'){
@@ -84,7 +84,7 @@ int main(){
 		cout << "1. ring exp\t\tATK: +8\t\tDEF: +9\t\tSPECIAL: Memberikan exp tambahan setiap pertarungan selesai\t\tPrice: 25000" << endl << endl;
 		cout << "2. digital armor\tDEF: +10\tSPD: +9\t\tPrice: 33000" << endl << endl;
 		cout << "3. heavy armor\t\tDEF: +20\tSPD: -8\t\tPrice: 20000" << endl << endl;
-		cout << "4. magic pendant\tSPMAX: +10\tPrice: 40000" << endl << endl << endl;
+		cout << "4. stamina capsul pouch\t SPMAX: +10\tPrice: 40000" << endl << endl << endl;
 
 		cout << ':';
 		cin >> pesenA;
@@ -115,7 +115,7 @@ int main(){
 			cin >> count;
 
 			int total_harga = count * 40000;
-			cout << "\n*kamu membeli magic pendant dengan jumlah " << count << " dan harga " << "DRP." << total_harga << endl << endl;
+			cout << "\n*kamu membeli stamina capsul pouch dengan jumlah " << count << " dan harga " << "DRP." << total_harga << endl << endl;
 		}
 	}
 
