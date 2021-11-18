@@ -118,8 +118,27 @@ int main(){
 			cout << "\n*kamu membeli stamina capsul pouch dengan jumlah " << count << " dan harga " << "DRP." << total_harga << endl << endl;
 		}
 	}
+//============senjata==============
 
-//================================
+	if(pesen == '3'){
+		cout << "mau yang mana?" << endl;
+
+		cout << "1. cyber mp5 gun\t ATK: +20\t price: 50000" << endl << endl;
+
+		cout << "2. cyber crescent\t ATK: +30\t price: 45000" << endl << endl;
+
+		cout << ':';
+		cin >> pesenS;
+
+		if(pesenS == '1'){
+			cout << "*kamu membeli cyber mp5 gun" << endl << endl;
+		}
+		else if(pesenS == '2'){
+			cout << "*kamu membeli cyber crescent" << endl << endl;
+		}
+	}
+
+//==============jual===============
 	
 	if(pesen == '4'){
 		cout << "apa yang kamu mau jual?" << endl;
@@ -132,6 +151,10 @@ int main(){
 		cout << "4. buster gun\t price: 40000" << endl << endl;
 
 		cout << "5. X sword\t price: 50000" << endl << endl;
+
+		cout << "demon of dark crescent\t price: 50000" << endl << endl;
+
+		cout << "doble demon gun\t price: 30000" << endl << endl;
 
 		cout << ':';
 		cin >> pesenJ;
