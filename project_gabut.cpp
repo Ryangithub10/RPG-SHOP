@@ -164,7 +164,7 @@ int main(){
 			int total_harga = count * 40000;
 			cout << "\n*kamu menjual buster gun dengan jumlah " << count << " dan harga " << "DRP." << total_harga << endl << endl;
 		}
-		else{
+		else if(pesenJ == '5'){
 			cout << "berapa: ";
 			cin >> count;
 
