@@ -127,6 +127,8 @@ int main(){
 
 		cout << "2. cyber crescent\t ATK: +25\t price: 45000" << endl << endl;
 
+		cout << "3. X saber\t\t ATK: +25\t price: 45000" << endl << endl;
+
 		cout << ':';
 		cin >> pesenS;
 
@@ -135,6 +137,9 @@ int main(){
 		}
 		else if(pesenS == '2'){
 			cout << "*kamu membeli cyber crescent" << endl << endl;
+		}
+		else if(pesenS == '3'){
+			cout << "*kamu membeli X saber" << endl << endl;
 		}
 	}
 
