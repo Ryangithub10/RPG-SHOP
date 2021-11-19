@@ -123,9 +123,9 @@ int main(){
 	if(pesen == '3'){
 		cout << "mau yang mana?" << endl;
 
-		cout << "1. cyber mp5 gun\t ATK: +20\t price: 50000" << endl << endl;
+		cout << "1. cyber mp5 gun\t ATK: +20\t price: 30000" << endl << endl;
 
-		cout << "2. cyber crescent\t ATK: +30\t price: 45000" << endl << endl;
+		cout << "2. cyber crescent\t ATK: +25\t price: 45000" << endl << endl;
 
 		cout << ':';
 		cin >> pesenS;
